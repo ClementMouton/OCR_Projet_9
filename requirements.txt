@@ -15,6 +15,7 @@ uvicorn==0.52.4
 # Data processing
 pandas==3.0.5
 requests==2.34.2
+beautifulsoup4==4.15.0
 
 # Environment variables
 python-dotenv==1.2.3

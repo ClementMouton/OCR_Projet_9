@@ -1,5 +1,5 @@
 import pandas as pd
-
+from bs4 import BeautifulSoup
 
 COLUMNS_TO_KEEP = [
     "uid",
@@ -28,6 +28,15 @@ COLUMNS_TO_KEEP = [
     "registration",
 ]
 
+def clean_html(text: str) -> str:
+    """Supprime les balises HTML d'un texte."""
+    if not text:
+        return ""
+
+    return BeautifulSoup(text, "html.parser").get_text(
+        separator=" ",
+        strip=True,
+    )
 
 def preprocess_events(events: pd.DataFrame) -> pd.DataFrame:
     """
@@ -89,5 +98,9 @@ def preprocess_events(events: pd.DataFrame) -> pd.DataFrame:
                 .astype(str)
                 .str.strip()
             )
+
+    for column in ["description_fr", "longdescription_fr"]:
+        if column in df.columns:
+            df[column] = df[column].apply(clean_html)
 
     return df.reset_index(drop=True)

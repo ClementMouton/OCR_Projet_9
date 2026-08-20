@@ -1,0 +1,13 @@
+id,question,reference_answer,category
+1,Où a lieu la Semaine des Métiers du Tourisme 2026 ?,"La Semaine des Métiers du Tourisme 2026 a lieu à l'Agence Inspire Metz, 2 place d'Armes.",factual
+2,Quand a lieu la Semaine des Métiers du Tourisme 2026 ?,La Semaine des Métiers du Tourisme 2026 a lieu le vendredi 6 février à 14h00.,factual
+3,Quel type de poste LIDL recrute-t-il lors de son événement à Metz ?,LIDL recrute des préparateurs de commandes H/F en CDI pour sa plateforme régionale de Montoy-Flanville.,factual
+4,Où a lieu l'exposition Identités régionales et modernité ?,"L'exposition Identités régionales et modernité a lieu à l'Hôtel de Ville, place d'Armes à Metz.",factual
+5,Je cherche un concert à Metz. Quel événement peux-tu me proposer ?,Ylesia - Concert Metz est un concert prévu au Jardin de l'Esplanade à Metz le dimanche 21 juin à 22h00.,recommendation
+6,Je cherche un événement autour du blues à Metz. Que peux-tu me proposer ?,Blues Bazar Revival est un concert prévu au Jardin de l'Esplanade à Metz le dimanche 21 juin à 20h15.,recommendation
+7,Je cherche une activité autour du vélo à Metz. Que peux-tu me proposer ?,Pédalons vers l'Histoire propose de découvrir le patrimoine messin à vélo les 20 et 21 septembre 2025.,recommendation
+8,Existe-t-il un événement de recrutement dans le secteur de la logistique ?,Oui. Chausséa recrute notamment des préparateurs de commandes et des caristes pour son site logistique situé à Trémery.,recommendation
+9,Quand peut-on visiter la chapelle Sainte-Blandine ?,La visite libre de la chapelle Sainte-Blandine est proposée les 20 et 21 septembre 2025.,temporal
+10,Quand a lieu l'atelier CV à l'Agence Metz Blida ?,L'atelier CV à l'Agence Metz Blida a lieu le vendredi 14 août à 14h00.,temporal
+11,Quels événements culturels sont disponibles à Nancy ?,Le corpus utilisé contient uniquement des événements situés à Metz et ne permet pas de recommander des événements à Nancy.,no_answer
+12,Quels festivals sont disponibles à Strasbourg ?,Le corpus utilisé contient uniquement des événements situés à Metz et ne permet pas de recommander des festivals à Strasbourg.,no_answer

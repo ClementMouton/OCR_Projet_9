@@ -77,6 +77,20 @@ def test_event_does_not_match_date():
         date(2026, 8, 21),
     )
 
+def test_ask_without_documents_returns_contexts():
+    rag = create_rag_without_init()
+
+    rag.retrieve = MagicMock(
+        return_value=[]
+    )
+
+    result = rag.ask(
+        "Question sans résultat",
+        include_contexts=True,
+    )
+
+    assert result["sources"] == []
+    assert result["retrieved_contexts"] == []
 
 if __name__ == "__main__":
     main()

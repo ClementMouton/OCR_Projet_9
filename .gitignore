@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+.venv_test/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated vector index
+vector_store/
+faiss_index/
+
+# Generated reports
+reports/

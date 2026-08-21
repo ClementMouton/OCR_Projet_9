@@ -1,0 +1,13 @@
+id,category,question,faithfulness,answer_correctness,answer_relevancy,context_recall,exact_match
+1,factual,Où a lieu la Semaine des Métiers du Tourisme 2026 ?,1.0,1.0,1.0,1.0,0.0
+2,factual,Quand a lieu la Semaine des Métiers du Tourisme 2026 ?,0.0,0.0,1.0,1.0,0.0
+3,factual,Quel type de poste LIDL recrute-t-il lors de son événement à Metz ?,1.0,1.0,1.0,1.0,0.0
+4,factual,Où a lieu l'exposition Identités régionales et modernité ?,1.0,1.0,1.0,1.0,0.0
+5,factual,Quel concert du groupe Ylesia est disponible à Metz ?,1.0,1.0,1.0,1.0,0.0
+6,recommendation,Je cherche un événement autour du blues à Metz. Que peux-tu me proposer ?,1.0,1.0,1.0,1.0,0.0
+7,factual,Quelle activité à vélo permet de découvrir le patrimoine messin ?,1.0,1.0,1.0,0.0,0.0
+8,factual,Quel événement de recrutement Chausséa propose-t-il dans le secteur de la logistique ?,1.0,1.0,1.0,1.0,0.0
+9,temporal,Quand peut-on visiter la chapelle Sainte-Blandine ?,0.8,0.7,1.0,1.0,0.0
+10,temporal,Quand a lieu l'atelier CV à l'Agence Metz Blida ?,1.0,0.0,1.0,0.0,0.0
+11,no_answer,Quels événements culturels sont disponibles à Nancy ?,1.0,1.0,1.0,1.0,0.0
+12,no_answer,Quels festivals sont disponibles à Strasbourg ?,1.0,1.0,1.0,1.0,0.0

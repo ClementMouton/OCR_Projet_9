@@ -25,7 +25,8 @@ TEST_CASES = [
         ),
         "reference_answer": (
             "La Semaine des Métiers du Tourisme 2026 a lieu "
-            "le vendredi 6 février à 14h00."
+            "du lundi 2 au vendredi 6 février 2026, avec des "
+            "créneaux à 10h00 et 14h00 chaque jour."
         ),
         "category": "factual",
     },
@@ -116,9 +117,8 @@ TEST_CASES = [
             "Quand a lieu l'atelier CV à l'Agence Metz Blida ?"
         ),
         "reference_answer": (
-            "La Semaine des Métiers du Tourisme 2026 a lieu "
-            "du lundi 2 au vendredi 6 février 2026, avec des "
-            "créneaux à 10h00 et 14h00 chaque jour."
+            "L'atelier CV à l'Agence Metz Blida a lieu "
+            "le vendredi 14 août à 14h00."
         ),
         "category": "temporal",
     },

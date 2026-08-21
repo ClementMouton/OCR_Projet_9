@@ -55,14 +55,13 @@ TEST_CASES = [
     {
         "id": 5,
         "question": (
-            "Je cherche un concert à Metz. "
-            "Quel événement peux-tu me proposer ?"
+            "Quel concert du groupe Ylesia est disponible à Metz ?"
         ),
         "reference_answer": (
-            "Ylesia - Concert Metz est un concert prévu au Jardin "
-            "de l'Esplanade à Metz le dimanche 21 juin à 22h00."
+            "Ylesia - Concert Metz a lieu au Jardin de l'Esplanade "
+            "à Metz le dimanche 21 juin 2026 à 22h00."
         ),
-        "category": "recommendation",
+        "category": "factual",
     },
     {
         "id": 6,
@@ -79,27 +78,26 @@ TEST_CASES = [
     {
         "id": 7,
         "question": (
-            "Je cherche une activité autour du vélo à Metz. "
-            "Que peux-tu me proposer ?"
+            "Quelle activité à vélo permet de découvrir "
+            "le patrimoine messin ?"
         ),
         "reference_answer": (
             "Pédalons vers l'Histoire propose de découvrir "
             "le patrimoine messin à vélo les 20 et 21 septembre 2025."
         ),
-        "category": "recommendation",
+        "category": "factual",
     },
     {
         "id": 8,
         "question": (
-            "Existe-t-il un événement de recrutement dans "
-            "le secteur de la logistique ?"
+            "Quel événement de recrutement Chausséa propose-t-il "
+            "dans le secteur de la logistique ?"
         ),
         "reference_answer": (
-            "Oui. Chausséa recrute notamment des préparateurs "
-            "de commandes et des caristes pour son site logistique "
-            "situé à Trémery."
+            "Chausséa recrute notamment des préparateurs de commandes "
+            "et des caristes pour son site logistique situé à Trémery."
         ),
-        "category": "recommendation",
+        "category": "factual",
     },
     {
         "id": 9,
@@ -118,8 +116,9 @@ TEST_CASES = [
             "Quand a lieu l'atelier CV à l'Agence Metz Blida ?"
         ),
         "reference_answer": (
-            "L'atelier CV à l'Agence Metz Blida a lieu "
-            "le vendredi 14 août à 14h00."
+            "La Semaine des Métiers du Tourisme 2026 a lieu "
+            "du lundi 2 au vendredi 6 février 2026, avec des "
+            "créneaux à 10h00 et 14h00 chaque jour."
         ),
         "category": "temporal",
     },

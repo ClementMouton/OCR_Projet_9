@@ -1,6 +1,6 @@
 id,question,reference_answer,category
 1,Où a lieu la Semaine des Métiers du Tourisme 2026 ?,"La Semaine des Métiers du Tourisme 2026 a lieu à l'Agence Inspire Metz, 2 place d'Armes.",factual
-2,Quand a lieu la Semaine des Métiers du Tourisme 2026 ?,La Semaine des Métiers du Tourisme 2026 a lieu le vendredi 6 février à 14h00.,factual
+2,Quand a lieu la Semaine des Métiers du Tourisme 2026 ?,"La Semaine des Métiers du Tourisme 2026 a lieu du lundi 2 au vendredi 6 février 2026, avec des créneaux à 10h00 et 14h00 chaque jour.",factual
 3,Quel type de poste LIDL recrute-t-il lors de son événement à Metz ?,LIDL recrute des préparateurs de commandes H/F en CDI pour sa plateforme régionale de Montoy-Flanville.,factual
 4,Où a lieu l'exposition Identités régionales et modernité ?,"L'exposition Identités régionales et modernité a lieu à l'Hôtel de Ville, place d'Armes à Metz.",factual
 5,Quel concert du groupe Ylesia est disponible à Metz ?,Ylesia - Concert Metz a lieu au Jardin de l'Esplanade à Metz le dimanche 21 juin 2026 à 22h00.,factual
@@ -8,6 +8,6 @@ id,question,reference_answer,category
 7,Quelle activité à vélo permet de découvrir le patrimoine messin ?,Pédalons vers l'Histoire propose de découvrir le patrimoine messin à vélo les 20 et 21 septembre 2025.,factual
 8,Quel événement de recrutement Chausséa propose-t-il dans le secteur de la logistique ?,Chausséa recrute notamment des préparateurs de commandes et des caristes pour son site logistique situé à Trémery.,factual
 9,Quand peut-on visiter la chapelle Sainte-Blandine ?,La visite libre de la chapelle Sainte-Blandine est proposée les 20 et 21 septembre 2025.,temporal
-10,Quand a lieu l'atelier CV à l'Agence Metz Blida ?,"La Semaine des Métiers du Tourisme 2026 a lieu du lundi 2 au vendredi 6 février 2026, avec des créneaux à 10h00 et 14h00 chaque jour.",temporal
+10,Quand a lieu l'atelier CV à l'Agence Metz Blida ?,Un atelier CV est proposé à l'Agence Metz Blida le vendredi 14 août 2026 à 14h00.,temporal
 11,Quels événements culturels sont disponibles à Nancy ?,Le corpus utilisé contient uniquement des événements situés à Metz et ne permet pas de recommander des événements à Nancy.,no_answer
 12,Quels festivals sont disponibles à Strasbourg ?,Le corpus utilisé contient uniquement des événements situés à Metz et ne permet pas de recommander des festivals à Strasbourg.,no_answer

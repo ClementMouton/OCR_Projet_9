@@ -1,5 +1,6 @@
 from unittest.mock import MagicMock
 
+import pytest
 from fastapi.testclient import TestClient
 
 import api.main as api_main
@@ -20,7 +21,7 @@ def test_health():
     }
 
 
-def test_ask():
+def test_ask_valid_question():
     mock_rag = MagicMock()
 
     mock_rag.ask.return_value = {
@@ -31,6 +32,9 @@ def test_ask():
                 "uid": "123",
                 "title": "Événement test",
                 "url": "https://example.com/event",
+                "start_date": "2026-08-28",
+                "end_date": "2026-08-28",
+                "location": "Metz",
             }
         ],
     }
@@ -48,12 +52,8 @@ def test_ask():
 
     data = response.json()
 
-    assert data["question"] == (
-        "Quels événements sont disponibles ?"
-    )
-    assert data["answer"] == (
-        "Voici les événements disponibles."
-    )
+    assert data["question"] == "Quels événements sont disponibles ?"
+    assert data["answer"] == "Voici les événements disponibles."
     assert len(data["sources"]) == 1
 
     mock_rag.ask.assert_called_once_with(
@@ -61,20 +61,125 @@ def test_ask():
     )
 
 
-def test_ask_empty_question():
+@pytest.mark.parametrize(
+    "payload",
+    [
+        {},
+        {"question": ""},
+        {"question": "   "},
+        {"question": 123},
+        {"question": None},
+    ],
+)
+def test_ask_rejects_invalid_question(payload):
     mock_rag = MagicMock()
-    mock_rag.ask.side_effect = ValueError(
-        "La question ne peut pas être vide."
-    )
+    api_main.rag_system = mock_rag
 
+    response = client.post("/ask", json=payload)
+
+    assert response.status_code == 422
+
+    mock_rag.ask.assert_not_called()
+
+
+def test_ask_rejects_extra_field():
+    mock_rag = MagicMock()
     api_main.rag_system = mock_rag
 
     response = client.post(
         "/ask",
-        json={"question": ""},
+        json={
+            "question": "Concert à Metz ?",
+            "champ_inconnu": "test",
+        },
     )
 
-    assert response.status_code == 400
-    assert response.json()["detail"] == (
-        "La question ne peut pas être vide."
+    assert response.status_code == 422
+
+    mock_rag.ask.assert_not_called()
+
+
+def test_ask_rejects_non_alphabetic_question():
+    mock_rag = MagicMock()
+    api_main.rag_system = mock_rag
+
+    response = client.post(
+        "/ask",
+        json={"question": "123456"},
     )
+
+    assert response.status_code == 422
+
+    mock_rag.ask.assert_not_called()
+
+
+def test_ask_rejects_too_long_question():
+    mock_rag = MagicMock()
+    api_main.rag_system = mock_rag
+
+    response = client.post(
+        "/ask",
+        json={"question": "a" * 501},
+    )
+
+    assert response.status_code == 422
+
+    mock_rag.ask.assert_not_called()
+
+def test_rebuild():
+    mock_events = MagicMock()
+    mock_processed_events = [MagicMock(), MagicMock()]
+    mock_documents = [MagicMock(), MagicMock()]
+    mock_chunks = [MagicMock(), MagicMock(), MagicMock()]
+
+    mock_vector_store = MagicMock()
+    mock_vector_store.index.ntotal = 3
+
+    mock_rag_system = MagicMock()
+
+    with (
+        pytest.MonkeyPatch.context() as monkeypatch
+    ):
+        monkeypatch.setattr(
+            api_main,
+            "fetch_events",
+            lambda city: mock_events,
+        )
+        monkeypatch.setattr(
+            api_main,
+            "preprocess_events",
+            lambda events: mock_processed_events,
+        )
+        monkeypatch.setattr(
+            api_main,
+            "create_documents",
+            lambda events: mock_documents,
+        )
+        monkeypatch.setattr(
+            api_main,
+            "split_documents",
+            lambda documents: mock_chunks,
+        )
+        monkeypatch.setattr(
+            api_main,
+            "build_vector_store",
+            lambda chunks: mock_vector_store,
+        )
+        monkeypatch.setattr(
+            api_main,
+            "RAGSystem",
+            lambda: mock_rag_system,
+        )
+
+        response = client.post("/rebuild")
+
+    assert response.status_code == 200
+
+    assert response.json() == {
+        "message": "Index FAISS reconstruit avec succès.",
+        "events_count": 2,
+        "chunks_count": 3,
+        "vectors_count": 3,
+    }
+
+    assert api_main.rag_system is mock_rag_system

@@ -1,3 +1,5 @@
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI, HTTPException
 
 from api.schemas import (
@@ -12,6 +14,20 @@ from src.rag import RAGSystem
 from src.vector_store import build_vector_store
 
 
+rag_system: RAGSystem | None = None
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    global rag_system
+
+    rag_system = RAGSystem()
+
+    yield
+
+    rag_system = None
+
+
 app = FastAPI(
     title="Puls-Events RAG API",
     description=(
@@ -19,17 +35,8 @@ app = FastAPI(
         "basée sur un système RAG avec Mistral et FAISS."
     ),
     version="1.0.0",
+    lifespan=lifespan,
 )
-
-
-rag_system: RAGSystem | None = None
-
-
-@app.on_event("startup")
-def startup_event():
-    global rag_system
-
-    rag_system = RAGSystem()
 
 
 @app.get("/health")

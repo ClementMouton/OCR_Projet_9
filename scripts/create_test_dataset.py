@@ -114,11 +114,12 @@ TEST_CASES = [
     {
         "id": 10,
         "question": (
-            "Quand a lieu l'atelier CV à l'Agence Metz Blida ?"
+            "À quelle heure a lieu l'atelier CV du vendredi "
+            "14 août 2026 à l'Agence Metz Blida ?"
         ),
         "reference_answer": (
-            "Un atelier CV est proposé à l'Agence Metz Blida "
-            "le vendredi 14 août 2026 à 14h00."
+            "L'atelier CV du vendredi 14 août 2026 "
+            "à l'Agence Metz Blida a lieu à 14h00."
         ),
         "category": "temporal",
     },

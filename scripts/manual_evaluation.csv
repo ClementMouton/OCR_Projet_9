@@ -1,0 +1,13 @@
+id,manual_evaluation,comment
+1,correct,"Lieu correctement identifié."
+2,partial,"Tous les créneaux sont corrects mais mercredi 6 février est indiqué au lieu de vendredi 6 février."
+3,correct,"Type de poste correctement identifié."
+4,correct,"Lieu correctement identifié."
+5,correct,"Concert, lieu, date et horaire corrects."
+6,correct,"Recommandation pertinente et conforme à la référence."
+7,correct,"Pédalons vers l'Histoire est correctement identifié ; une proposition secondaire moins pertinente est ajoutée."
+8,correct,"Postes et site logistique correctement identifiés."
+9,correct,"Les deux dates de visite sont correctement identifiées."
+10,correct,"Horaire du 14 août correctement identifié."
+11,correct,"Abstention correcte pour une demande hors du corpus Metz."
+12,correct,"Abstention correcte pour une demande hors du corpus Metz."

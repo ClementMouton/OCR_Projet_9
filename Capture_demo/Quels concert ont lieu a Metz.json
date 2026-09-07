@@ -1,0 +1,86 @@
+{
+  "question": "Quels concerts sont disponibles à Metz ?",
+  "answer": "Voici les concerts disponibles à Metz le **dimanche 21 juin 2026** (Fête de la musique) :\n\n### **Place de la Comédie**\n- **17h30 - 19h30** : Lycée Georges de la Tour (option musique) – *Pop*\n- **20h00 - 21h30** : Séga Vibes – *Musique du monde*\n- **22h00 - 23h00** : NEO SAMBA E VIDA – *Batucada*\n- **22h00 - 23h30** : Kwijibo – *Jazz, électro, rock*\n\n### **Jardin de l'Esplanade**\n- **17h00 - 19h00** : Le Tourdion – *Chorale*\n- **20h00 - 21h30** : Blues Bazar Revival – *Pop rock*\n- **22h30 - 00h00** : Ylesia – *Métal progressif*\n\n### **Place de la République**\n- **17h30 - 19h00** : BLuMea – *Rock*\n- **19h30 - 21h00** : Animaal Perplexx – *Rock*\n- **21h30 - 00h30** : VNR Ambition – *Rap, Hip-Hop*\n\nTous ces événements sont **gratuits et en accès libre**.\n\n*(Les horaires sont indiqués en heure locale de Metz.)*",
+  "sources": [
+    {
+      "uid": "90365169",
+      "title": "Concerts Place de la Comédie - Metz",
+      "url": "https://openagenda.com/fetedelamusique2026/events/concerts-place-de-la-comedie-metz",
+      "start_date": "2026-06-21 15:00:00+00:00",
+      "end_date": "2026-06-21 21:59:00+00:00",
+      "location": "Place de la Comédie - Metz"
+    },
+    {
+      "uid": "62699773",
+      "title": "Concerts Jardin de l'Esplanade - Metz",
+      "url": "https://openagenda.com/fetedelamusique2026/events/concerts-jardin-de-lesplanade-metz",
+      "start_date": "2026-06-21 15:00:00+00:00",
+      "end_date": "2026-06-21 21:59:00+00:00",
+      "location": "Esplanade - Metz"
+    },
+    {
+      "uid": "5646986",
+      "title": "Concerts Place de la République - Metz",
+      "url": "https://openagenda.com/fetedelamusique2026/events/concerts-place-de-la-republique-metz",
+      "start_date": "2026-06-21 15:00:00+00:00",
+      "end_date": "2026-06-21 21:59:00+00:00",
+      "location": "Place de la République - Podium A"
+    },
+    {
+      "uid": "20534383",
+      "title": "Lycée Georges de la Tour option musique - Concert Metz",
+      "url": "https://openagenda.com/fetedelamusique2026/events/lycee-georges-de-la-tour-option-musique-concert-place-de-la-comedie-metz",
+      "start_date": "2026-06-21 15:00:00+00:00",
+      "end_date": "2026-06-21 17:30:00+00:00",
+      "location": "Place de la Comédie - Metz"
+    },
+    {
+      "uid": "59164854",
+      "title": "Le Tourdion - Concert Metz",
+      "url": "https://openagenda.com/fetedelamusique2026/events/le-tourdion-concert-jardin-de-lesplanade",
+      "start_date": "2026-06-21 15:00:00+00:00",
+      "end_date": "2026-06-21 17:00:00+00:00",
+      "location": "Esplanade - Metz"
+    },
+    {
+      "uid": "50411014",
+      "title": "Ylesia - Concert  Metz",
+      "url": "https://openagenda.com/fetedelamusique2026/events/ylesia-concert-jardin-de-lesplanade-metz",
+      "start_date": "2026-06-21 20:00:00+00:00",
+      "end_date": "2026-06-21 21:59:00+00:00",
+      "location": "Esplanade - Metz"
+    },
+    {
+      "uid": "18675356",
+      "title": "Kwjibo - Concert  Metz",
+      "url": "https://openagenda.com/fetedelamusique2026/events/kwjibo-concert-place-de-la-comedie-metz",
+      "start_date": "2026-06-21 20:00:00+00:00",
+      "end_date": "2026-06-21 21:30:00+00:00",
+      "location": "Place de la Comédie - Metz"
+    },
+    {
+      "uid": "51120053",
+      "title": "Séga Vibes - Concert Metz",
+      "url": "https://openagenda.com/fetedelamusique2026/events/sega-vibes-concert-place-de-la-comedie-metz",
+      "start_date": "2026-06-21 18:00:00+00:00",
+      "end_date": "2026-06-21 19:30:00+00:00",
+      "location": "Place de la Comédie - Metz"
+    },
+    {
+      "uid": "94831318",
+      "title": "Visites guidées de la gare de Metz, élue plus belle gare de France",
+      "url": "https://openagenda.com/culture/events/visites-guidees-de-la-gare-de-metz-elue-plus-belle-gare-de-france-visites-organisees-par-sncf-gares-and-connexions-avec-lagence-inspire-metz",
+      "start_date": "2026-09-19 08:00:00+00:00",
+      "end_date": "2026-09-20 15:00:00+00:00",
+      "location": "Gare SNCF de METZ - 3 Place du Général de Gaulle - 57000 METZ"
+    },
+    {
+      "uid": "21070346",
+      "title": "BLuMea - Concert Metz",
+      "url": "https://openagenda.com/fetedelamusique2026/events/blumea-concert-place-de-la-republique-metz",
+      "start_date": "2026-06-21 15:30:00+00:00",
+      "end_date": "2026-06-21 17:00:00+00:00",
+      "location": "Place de la République - Podium A"
+    }
+  ]
+}

@@ -13,6 +13,10 @@ from src.preprocessing import preprocess_events
 from src.rag import RAGSystem
 from src.vector_store import build_vector_store
 
+import httpx
+
+from contextlib import asynccontextmanager
+from fastapi import FastAPI, HTTPException
 
 rag_system: RAGSystem | None = None
 
@@ -65,6 +69,21 @@ def ask(request: AskRequest):
         raise HTTPException(
             status_code=400,
             detail=str(error),
+        ) from error
+
+    except httpx.HTTPStatusError as error:
+        if error.response.status_code == 429:
+            raise HTTPException(
+                status_code=503,
+                detail=(
+                    "Le service Mistral est temporairement indisponible "
+                    "en raison d'une limite de requêtes."
+                ),
+            ) from error
+
+        raise HTTPException(
+            status_code=502,
+            detail="Erreur lors de l'appel au service Mistral.",
         ) from error
 
 

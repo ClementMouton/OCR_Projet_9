@@ -1,0 +1,86 @@
+{
+  "question": "Quels événements sont disponibles vendredi soir ?",
+  "answer": "Voici les événements disponibles **vendredi soir** à Metz selon le contexte fourni :\n\n### **Événement 5**\n**Titre** : *When I Saw the Sea*\n- **Date** : Vendredi 22 mai 2026, 20h00\n- **Lieu** : BAM - La Boîte à Musiques Metz (20 bd d'Alsace, Metz)\n- **Tarif** : 5 à 22€, dès 14 ans\n- **Langue** : En arabe surtitré français (récits difficiles)\n- **URL** : [En savoir plus](https://openagenda.com/saison-mediterranee-2026/events/when-i-saw-the-sea)\n\n*Aucun autre événement n'est prévu un vendredi soir à Metz dans le contexte.*",
+  "sources": [
+    {
+      "uid": "37176147",
+      "title": "Visite d'un réseaux de chaleur coopératifs en Allemagne",
+      "url": "https://openagenda.com/unidivers-oui-sortir/events/visite-dun-reseaux-de-chaleur-cooperatifs-en-allemagne",
+      "start_date": "2026-01-23 08:00:00+00:00",
+      "end_date": "2026-01-23 16:00:00+00:00",
+      "location": "Sélestat"
+    },
+    {
+      "uid": "88176886",
+      "title": "Parlons de l'élevage en Grand Est !",
+      "url": "https://openagenda.com/toutes-les-chambres-agriculture-agregees/events/parlons-de-lelevage-en-grand-est",
+      "start_date": "2025-10-31 08:00:00+00:00",
+      "end_date": "2025-10-31 15:30:00+00:00",
+      "location": "Centre Foires et Conventions de l'Eurométropole, Metz (57)"
+    },
+    {
+      "uid": "65170878",
+      "title": "Et si votre expérience devenait un diplôme ? Découvrez la VAE hybride ! Obtenez le Diplôme d'État d'Aide-Soignant !",
+      "url": "https://openagenda.com/francetravail/events/et-si-votre-experience-devenait-un-diplome-decouvrez-la-vae-hybride-obtenez-le-diplome-detat-daide-soignant",
+      "start_date": "2026-09-25 07:00:00+00:00",
+      "end_date": "2026-09-25 09:00:00+00:00",
+      "location": "Agence METZ GARE"
+    },
+    {
+      "uid": "64253263",
+      "title": "Soirée annuelle Evolutive Learning Factories (ELF)",
+      "url": "https://openagenda.com/semaine-industrie-2025/events/soiree-annuelle-evolutive-learning-factories-elf-5317735",
+      "start_date": "2025-11-21 16:00:00+00:00",
+      "end_date": "2025-11-21 19:00:00+00:00",
+      "location": "Campus Arts et Métiers de Metz"
+    },
+    {
+      "uid": "86391742",
+      "title": "When I Saw the Sea",
+      "url": "https://openagenda.com/saison-mediterranee-2026/events/when-i-saw-the-sea",
+      "start_date": "2026-05-22 18:00:00+00:00",
+      "end_date": "2026-05-22 19:10:00+00:00",
+      "location": "BAM - La Boîte à Musiques Metz"
+    },
+    {
+      "uid": "32135276",
+      "title": "RECRUTEMENTENT EN ALTERNANCE CANALISATEURS /TRICES ET MACONS/NES COFFREURS(ES) AVEC LE GEIQ BTP LORRAINE",
+      "url": "https://openagenda.com/francetravail/events/recrutementent-en-alternance-canalisateurs-trices-et-maconsnes-coffreurses-avec-le-geiq-btp-lorraine",
+      "start_date": "2025-09-12 11:45:00+00:00",
+      "end_date": "2025-09-12 13:30:00+00:00",
+      "location": "Agence METZ SEBASTOPOL"
+    },
+    {
+      "uid": "2015830",
+      "title": "Atelier d'auto-réparation (repair-café)",
+      "url": "https://openagenda.com/repaircafe/events/repair-cefe",
+      "start_date": "2025-10-16 12:00:00+00:00",
+      "end_date": "2025-10-16 15:00:00+00:00",
+      "location": "GRAOULAB"
+    },
+    {
+      "uid": "27034970",
+      "title": "Journée Portes Ouvertes spéciale Entrepreneur d’Activités Numériques",
+      "url": "https://openagenda.com/francetravail/events/journee-portes-ouvertes-speciale-entrepreneur-dactivites-numeriques-1118649",
+      "start_date": "2025-09-11 12:00:00+00:00",
+      "end_date": "2025-09-11 14:00:00+00:00",
+      "location": "Metz - DT MOSELLE"
+    },
+    {
+      "uid": "12831444",
+      "title": "REUNION DE RECRUTEMENT VOLONTAIRE SERVICE CIVIQUE POUR FRANCE TRAVAIL",
+      "url": "https://openagenda.com/francetravail/events/reunion-de-recrutement-volontaire-service-civique-pour-france-travail-1894356",
+      "start_date": "2025-08-27 12:00:00+00:00",
+      "end_date": "2025-08-27 13:00:00+00:00",
+      "location": "Agence METZ BLIDA"
+    },
+    {
+      "uid": "12227279",
+      "title": "Dedans/dehors : ce qui nous traverse",
+      "url": "https://openagenda.com/planlibre/events/petites-voix-grand-avenir",
+      "start_date": "2026-05-23 14:00:00+00:00",
+      "end_date": "2026-05-23 15:00:00+00:00",
+      "location": "Frac Lorraine"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "question": "Quels matchs de football sont prévus à Metz ?",
+  "answer": "Je ne dispose pas d'informations concernant des matchs de football prévus à Metz dans le contexte fourni.",
+  "sources": [
+    {
+      "uid": "94831318",
+      "title": "Visites guidées de la gare de Metz, élue plus belle gare de France",
+      "url": "https://openagenda.com/culture/events/visites-guidees-de-la-gare-de-metz-elue-plus-belle-gare-de-france-visites-organisees-par-sncf-gares-and-connexions-avec-lagence-inspire-metz",
+      "start_date": "2026-09-19 08:00:00+00:00",
+      "end_date": "2026-09-20 15:00:00+00:00",
+      "location": "Gare SNCF de METZ - 3 Place du Général de Gaulle - 57000 METZ"
+    },
+    {
+      "uid": "28151759",
+      "title": "Travel Day – Immersion tourisme à Metz",
+      "url": "https://openagenda.com/semaine-des-metiers-du-tourisme-2026/events/travel-day-immersion-tourisme-a-metz",
+      "start_date": "2026-02-04 08:30:00+00:00",
+      "end_date": "2026-02-04 15:30:00+00:00",
+      "location": "École Supérieure de Tourisme Metz"
+    },
+    {
+      "uid": "80571107",
+      "title": "Contes Shipibos - L'Agora - Metz (57)",
+      "url": "https://openagenda.com/cie-caminos/events/contes-shipibos-lagora-mets-57",
+      "start_date": "2025-12-13 15:00:00+00:00",
+      "end_date": "2025-12-13 16:00:00+00:00",
+      "location": "L'Agora"
+    },
+    {
+      "uid": "54293939",
+      "title": "Découvrez les métiers de la réparation et trouvez votre prochain emploi !",
+      "url": "https://openagenda.com/repaircafe/events/decouvrez-les-metiers-de-la-reparation-et-trouvez-votre-prochain-emploi",
+      "start_date": "2025-10-16 07:00:00+00:00",
+      "end_date": "2025-10-16 09:00:00+00:00",
+      "location": "FT Metz"
+    },
+    {
+      "uid": "15939660",
+      "title": "Histoire(s) décoloniale(s) #Dalila",
+      "url": "https://openagenda.com/saison-mediterranee-2026/events/histoires-decoloniales-dalila-8947908",
+      "start_date": "2026-05-23 15:00:00+00:00",
+      "end_date": "2026-05-23 15:45:00+00:00",
+      "location": "Arsenal Jean-Marie Rausch Metz"
+    },
+    {
+      "uid": "88645160",
+      "title": "Language : no broblem",
+      "url": "https://openagenda.com/saison-mediterranee-2026/events/language-no-broblem",
+      "start_date": "2026-05-24 16:00:00+00:00",
+      "end_date": "2026-05-24 17:10:00+00:00",
+      "location": "Arsenal Jean-Marie Rausch Metz"
+    },
+    {
+      "uid": "55702967",
+      "title": "Gathering Memories with my Eyelashes",
+      "url": "https://openagenda.com/saison-mediterranee-2026/events/gathering-memories-with-my-eyelashes",
+      "start_date": "2026-05-24 12:00:00+00:00",
+      "end_date": "2026-05-24 19:15:00+00:00",
+      "location": "Arsenal Jean-Marie Rausch Metz"
+    },
+    {
+      "uid": "72487853",
+      "title": "EX-otic",
+      "url": "https://openagenda.com/saison-mediterranee-2026/events/ex-otic-9991619",
+      "start_date": "2026-05-23 20:00:00+00:00",
+      "end_date": "2026-05-23 20:30:00+00:00",
+      "location": "Esplanade Metz"
+    },
+    {
+      "uid": "90506785",
+      "title": "TESSI recrute ses futur(e)s Téléconseiller(e)s SANS CV",
+      "url": "https://openagenda.com/francetravail/events/tessi-recrute-ses-futures-teleconseilleres-sans-cv-2707359",
+      "start_date": "2025-11-24 08:00:00+00:00",
+      "end_date": "2025-11-24 10:30:00+00:00",
+      "location": "Agence METZ SEBASTOPOL"
+    },
+    {
+      "uid": "78382324",
+      "title": "information collective dispositif PREPAPP: Préparation à l'apprentissage",
+      "url": "https://openagenda.com/francetravail/events/information-collective-dispositif-prepapp-preparation-a-lapprentissage-1796163",
+      "start_date": "2026-09-04 05:00:00+00:00",
+      "end_date": "2026-09-04 07:00:00+00:00",
+      "location": "Agence METZ GARE"
+    }
+  ]
+}

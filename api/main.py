@@ -1,5 +1,6 @@
 from contextlib import asynccontextmanager
 
+import httpx
 from fastapi import FastAPI, HTTPException
 
 from api.schemas import (
@@ -12,11 +13,6 @@ from src.embeddings import create_documents, split_documents
 from src.preprocessing import preprocess_events
 from src.rag import RAGSystem
 from src.vector_store import build_vector_store
-
-import httpx
-
-from contextlib import asynccontextmanager
-from fastapi import FastAPI, HTTPException
 
 rag_system: RAGSystem | None = None
 
